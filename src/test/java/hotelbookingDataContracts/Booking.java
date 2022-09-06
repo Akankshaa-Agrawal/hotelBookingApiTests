@@ -13,12 +13,12 @@ public class Booking {
 		
 	}
 	public Booking(String firstname,String lastname,Integer totalprice,Boolean depositpaid,Bookingdates bookingdates,String additionalneeds){
-		this.firstname =firstname;
+		this.firstname = firstname;
 		this.lastname = lastname;
-		this.totalprice=totalprice;
-		this.depositpaid=depositpaid;
-		this.bookingdates=bookingdates;
-		this.additionalneeds=additionalneeds;
+		this.totalprice= totalprice;
+		this.depositpaid= depositpaid;
+		this.bookingdates= bookingdates;
+		this.additionalneeds= additionalneeds;
 	}
 
 	public String getFirstname() {

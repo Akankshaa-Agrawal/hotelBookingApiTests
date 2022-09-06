@@ -8,6 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "src/test/java/hotelbookingFeatures"
 		,glue={"hotelbookingStepDefinitions"}
+		,tags= "@RegressionTest"
 		)
 public class TestRunner {
 
